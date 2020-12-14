@@ -1,0 +1,8 @@
+h1 {
+	color: blue;
+	font-size: 36px;
+}
+
+#song-table > tbody > tr:hover {
+	background-color: #a1fffd;
+}

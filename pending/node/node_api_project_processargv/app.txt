@@ -1,0 +1,317 @@
+
+
+-------------Youtube Search Result 1 ---------------
+Link: https://www.youtube.com/watch?v=lsV500W4BHU
+Title: Powerman 5000 - When Worlds Collide
+Description: Music video by Powerman 5000 performing When Worlds Collide. YouTube view counts pre-VEVO: 2509970. (C) 1999 SKG Music L.L.C..
+
+-------------Youtube Search Result 2 ---------------
+Link: https://www.youtube.com/channel/UC1rqMEzr4KlQq4JrsloBjSg
+Title: Powerman5000VEVO
+Description: 
+
+-------------Youtube Search Result 3 ---------------
+Link: https://www.youtube.com/watch?v=XAVqurkZZdo
+Title: Powerman 5000 - Sid Vicious in a Dress
+Description: iTunes: https://goo.gl/s41op4 Apple Music: https://goo.gl/1SsqDG Amazon: https://goo.gl/MvEmrw.
+
+
+-------------Geocoder Search Result-----------
+Street: Wayne Street
+Neighborhood: Downtown Jersey City
+Country: Hudson County
+Zip Code: 07302
+Latitude: 40.7198124, Longitude: -74.046695
+
+-------------Yelp Search Result 1-----------
+Name: Local Smoke BBQ
+Rating: 4.5
+Price: $$
+Phone: +17324558888
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: La Lupa Di Roma
+Rating: 4.5
+Price: $$
+Phone: +17328978700
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: The Grand Tavern
+Rating: 4.5
+Price: $$$
+Phone: +17327740120
+Closed Right Now: No
+
+
+-------------Geocoder Search Result-----------
+Street: Amber Street
+Neighborhood: Richmond
+Country: Richmond County
+Zip Code: 10306
+Latitude: 40.568254, Longitude: -74.130459
+
+-------------Geocoder Search Result-----------
+Street: Amber Street
+Neighborhood: Richmond
+Country: Richmond County
+Zip Code: 10306
+Latitude: 40.568254, Longitude: -74.130459
+
+-------------Yelp Search Result 1-----------
+Name: Jade Island
+Rating: 3.5
+Price: $$
+Phone: +17187618080
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Villamonte Restaurant & Pizzeria
+Rating: 3.5
+Price: $$
+Phone: +17184946554
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Clove Lakes Park
+Rating: 4.5
+Price: undefined
+Phone: +17183908000
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: The Stone House at Clove Lakes
+Rating: 4
+Price: $$$
+Phone: +17184423600
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Marie's Gourmet
+Rating: 4
+Price: $$
+Phone: +17189814664
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Incas Grill Peruvian kitchen
+Rating: 4.5
+Price: $$
+Phone: +17184480488
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Pizzeria Giove
+Rating: 4
+Price: $$
+Phone: +13472860635
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Piece A Cake
+Rating: 4
+Price: $$
+Phone: +17189802253
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Leo's Deli Sandwich Shop
+Rating: 5
+Price: $
+Phone: +17188158757
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Pho Rainbow
+Rating: 4
+Price: $
+Phone: +17189871084
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: G-Knows Cheesesteaks
+Rating: 4.5
+Price: $
+Phone: +17182739016
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Incas Grill Peruvian kitchen
+Rating: 4.5
+Price: $$
+Phone: +17184480488
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Pizzeria Giove
+Rating: 4
+Price: $$
+Phone: +13472860635
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Piece A Cake
+Rating: 4
+Price: $$
+Phone: +17189802253
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Incas Grill Peruvian kitchen
+Rating: 4.5
+Price: $$
+Phone: +17184480488
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Pizzeria Giove
+Rating: 4
+Price: $$
+Phone: +13472860635
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Piece A Cake
+Rating: 4
+Price: $$
+Phone: +17189802253
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: POKAY
+Rating: 5
+Price: $$
+Phone: +12013569555
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Samakmak Seafood
+Rating: 5
+Price: $$
+Phone: +12013333474
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Cellar 335
+Rating: 4.5
+Price: $$
+Phone: +12012221422
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: POKAY
+Rating: 5
+Price: $$
+Phone: +12013569555
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Samakmak Seafood
+Rating: 5
+Price: $$
+Phone: +12013333474
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Cellar 335
+Rating: 4.5
+Price: $$
+Phone: +12012221422
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Razza Pizza Artigianale
+Rating: 4
+Price: $$
+Phone: +12013569348
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Renato's Pizza Masters
+Rating: 4
+Price: $$
+Phone: +12016592232
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Lombardi's Pizza
+Rating: 4
+Price: $$
+Phone: +12129417994
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Brother's Pizzeria
+Rating: 4
+Price: $
+Phone: +17184422332
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Nonna's Pizzeria
+Rating: 4
+Price: $
+Phone: +17182278108
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Paulie's Pizzeria
+Rating: 4.5
+Price: $
+Phone: +17189815111
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Miyabi Asian Fusion
+Rating: 4.5
+Price: $$
+Phone: +17188768088
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Ocean Sushi
+Rating: 4.5
+Price: $$
+Phone: +17189666888
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Simple Asia
+Rating: 4.5
+Price: $$
+Phone: +17189798868
+Closed Right Now: No
+
+
+-------------Yelp Search Result 1-----------
+Name: Patrizia's of Brooklyn - Staten Island
+Rating: 4
+Price: $$$
+Phone: +17183176600
+Closed Right Now: No
+
+-------------Yelp Search Result 2-----------
+Name: Marta
+Rating: 4
+Price: $$$
+Phone: +12126513800
+Closed Right Now: No
+
+-------------Yelp Search Result 3-----------
+Name: Mario's
+Rating: 4
+Price: $$$
+Phone: +17189791075
+Closed Right Now: No
+

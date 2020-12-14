@@ -1,0 +1,27 @@
+CREATE TABLE users (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(255) NOT NULL,
+	username VARCHAR(255) NOT NULL UNIQUE,
+	password VARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE songs (
+	id SERIAL PRIMARY KEY,
+	song_artist VARCHAR(255) NOT NULL,
+	song_name VARCHAR(255) NOT NULL
+)
+
+CREATE TABLE bought_songs (
+  id SERIAL PRIMARY KEY,
+  user_id INT NOT NULL,
+  song_id INT NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  FOREIGN KEY (song_id) REFERENCES songs(id) ON DELETE CASCADE
+);
+
+CREATE TABLE bank (
+	id SERIAL PRIMARY KEY,
+	balance VARCHAR(255) NOT NULL,
+	user_id INTEGER REFERENCES users(id)
+);

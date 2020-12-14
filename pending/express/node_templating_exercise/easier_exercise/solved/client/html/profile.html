@@ -1,0 +1,23 @@
+<!-- 
+	Remember the server side route to index.html, this is what is going to show up
+	when you hit the url http://localhost:<port>/profile
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Client Server Connection Exercise Profile Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- 
+		When set up our static route in our server.js, we are referring to the
+		path directory to the static file such as this one here...our css file
+	-->
+	<link rel="stylesheet" type="text/css" href="./css/profile.css">
+</head>
+<body>
+	<h1 class="text-center">What's up. I'm <span id="profile-span"></span></h1>
+	<div></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- and this one here, our client side javascript file-->
+<script src="./js/profile.js"></script>
+</body>
+</html>

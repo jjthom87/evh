@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Client Server Connection</title>
+	<link rel="stylesheet" type="text/css" href="./public/styles.css">
+</head>
+<body>
+	<h1>Hello World!</h1>
+	<form id="exercise-form">
+		<label>Name</label>
+		<br>
+		<input type="text" id="name-input"/>
+		<br>
+		<label>Age</label>
+		<br>
+		<input type="number" id="age-input"/>
+		<br>
+		<label>Height</label>
+		<br>
+		<input type="number" id="height-input"/>
+		<br>
+		<input type="submit"/>
+	</form>
+	<br>
+	<table>
+		<tr id="columns">
+		    <thead>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Height</th>
+			</thead>
+			<tbody id="tbody"></tbody>
+		</tr>
+	</table>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="./public/app.js"></script>
+</body>
+</html>

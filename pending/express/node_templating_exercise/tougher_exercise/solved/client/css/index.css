@@ -1,0 +1,12 @@
+body{
+	background-color: blue;
+}
+h1 {
+	font-size: 65px;
+	color: red;
+}
+
+.dog-pics {
+	height: 200;
+	width: auto;
+}

@@ -1,0 +1,16 @@
+h3 {
+	margin-left: 25px;
+	border-bottom: 16;
+	border-bottom-style: solid;
+	display: inline-block;
+}
+
+#noPostP {
+	margin-left: 25px;
+}
+
+.post-name {
+	border-bottom: 16;
+	border-bottom-style: solid;
+	display: inline-block;
+}

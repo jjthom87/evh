@@ -1,0 +1,17 @@
+{
+  "name": "solved",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pg_exercise.js",
+  "scripts": {
+    "start": "node pg_exercise.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "inquirer": "^3.3.0",
+    "pg": "^7.4.0"
+  }
+}
