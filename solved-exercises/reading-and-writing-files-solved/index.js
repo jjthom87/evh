@@ -26,19 +26,30 @@
 var fs = require("fs");
 var argumentThree = process.argv[2];
 
-fs.readFile('./append_to_me.txt', 'utf-8', function(readErr, data){
-  if(readErr){
-    throw readErr
-  }
-  if(data){
-    newContents = data + "," + argumentThree
-  } else {
-    newContents = argumentThree
-  }
-  fs.writeFile('./append_to_me.txt', newContents.toString(), function(writeErr){
-  	if(writeErr){
-  		throw writeErr;
-  	}
-  	console.log('written to file')
+var fileNameAndPath = "./append_to_me.txt"
+
+if(fs.existsSync(fileNameAndPath)){
+  fs.readFile(fileNameAndPath, 'utf-8', function(readErr, data){
+    if(readErr){
+      throw readErr
+    }
+    var newContents;
+    if(data){
+      newContents = data + "," + argumentThree
+    } else {
+      newContents = argumentThree
+    }
+    writeContentsToFile(fileNameAndPath, newContents);
   })
-})
+} else {
+  writeContentsToFile(fileNameAndPath, argumentThree)
+}
+
+function writeContentsToFile(filePath, contents){
+  fs.writeFile(filePath, contents, function(writeErr){
+    if(writeErr){
+      throw writeErr;
+    }
+    console.log('written to file')
+  })
+}
