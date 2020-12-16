@@ -15,3 +15,10 @@
 * Query - Join Clause
 * Schema Change - Foreign Keys, Relationships
 * Query - Deletes & Updates
+
+## CRUD
+* 4 CRUD Operations when calling a Database
+  * Read == Get
+  * Create == Post
+  * Update == Put
+  * Delete == Delete
