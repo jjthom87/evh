@@ -15,13 +15,13 @@ if(command){
 	//for that api
 	switch(command){
 		case 'yelp':
-			yelp(process.argv[3], process.argv[4], process.argv.slice(5).join("+"));
+			yelp();
 			break;
 		case 'youtube':
-			youtube(process.argv.slice(3).join("+"));
+			youtube(process.argv.slice(3).join(" "));
 			break;
 		case 'geocoder':
-			geocoder(process.argv.slice(3).join("+"));
+			geocoder(process.argv.slice(3).join(" "));
 			break;
 		default:
 			//if the 2nd argument does not match the cases above, do this

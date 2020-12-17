@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.83.0",
-    "yelp-fusion": "^1.0.3",
-    "youtube-search": "^1.0.10"
+    "inquirer": "^7.3.3",
+    "request": "^2.88.2",
+    "yelp-fusion": "^3.0.0",
+    "youtube-search": "^1.1.4"
   }
 }

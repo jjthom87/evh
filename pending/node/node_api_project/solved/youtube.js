@@ -4,19 +4,23 @@ var read_and_write = require('./file_read_and_write.js');
 module.exports = (argThree) => {
 	//requiring the youtube-search npm package, which was built by youtube
 	//for you to search their api easily
-	var search = require('youtube-search');
-	
+	var youtubeSearch = require('youtube-search');
+
 	//look in their documentation: google npm youtube-search
 	//they want you to store this information in an object
-	var opts = {
-	  maxResults: 3,
-	  key: 'AIzaSyABOmBYuQiCnTIx8ynKAx8dyb2-4jvh6uE'
+	var opts = youtubeSearch.YouTubeSearchOptions = {
+  	maxResults: 10,
+  	key: ""
 	};
-	
+
+	//to get the api key go here: https://developers.google.com/youtube/v3
+
 	//look in their documentation, this is how it's done
-	search(argThree, opts, function(err, results) {
+youtubeSearch(argThree, opts, (err, results) => {
 		//logging an error if there is one
-		if(err) return console.log(err);
+		if(err) {
+			return console.log(err);
+		}
 		//creating a string to append to later on
 		var str = "";
 		//parsing through my results

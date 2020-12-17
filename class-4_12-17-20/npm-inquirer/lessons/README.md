@@ -9,7 +9,7 @@ To start NPM in your project:
 3. press enter all the ways through, and type in yes at the end
 4. You will see a package.json is created. This lists all of the packages you've imported.
 
-To install a package, run ```'npm install <"package name"> --save'```
+To install a package, run ```npm install <"package name"> --save```
 <br>
 Finally, make sure to add that package to your js file as follows:
 <br>

@@ -15,7 +15,8 @@ module.exports = (argThree) => {
 	//my api key to get access to the api
 	//look at where this is being inserted, right after "&key=", that is how google
 	//set up their string
-	const api_key = 'AIzaSyABOmBYuQiCnTIx8ynKAx8dyb2-4jvh6uE';
+	//https://developers.google.com/maps/documentation/geocoding/get-api-key
+	const api_key = '';
 
 	if(argThree){
 		//starting an empty string to be appended to later on,
