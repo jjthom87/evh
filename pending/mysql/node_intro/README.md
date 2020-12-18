@@ -1,10 +1,4 @@
-# First day of Postgres
-
-## PG Admin Download
-* mac: https://www.postgresql.org/download/macosx/
-* windows: https://www.postgresql.org/download/windows/
-
-* troublshooting mac: https://apple.stackexchange.com/questions/326882/how-to-open-pgadmin-4
+# First day of MySql
 
 ## Sql Language
 * Create Database Through PG Admin Tool

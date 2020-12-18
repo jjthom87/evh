@@ -1,33 +1,43 @@
-/* <------------------------------------------------------------------> */
+/*
+	https://www.npmjs.com/package/mysql
+*/
 
-//setup for connection database
+//setup for connecting to database from javascript
 
-//node modules to request
-var pg = require('pg');
+//importing the mysql module into this file
+var mysql = require('mysql');
 
 //you have to pick the database to connect to;
-var dbUrl = {
-	user: 'postgres',
+var databaseConnection = mysql.createConnection({
+	user: 'root',
 	password: '',
-	database: 'first_db',
+	database: 'finally',
 	host: 'localhost',
-	port: 5433
-};
+	port: 3306
+});
 
 //creating a client to connect to, which as you see, uses the object that we set up
-var pgClient = new pg.Client(dbUrl);
+databaseConnection.connect(function(err, res){
+	if(err){
+		console.error("ERROR");
+		console.error(err);
+	} else {
+		console.log("SUCCESS!");
+		console.log(res);
+	}
+});
 
 //officially connecting to that postgres database
-pgClient.connect();
+// pgClient.connect();
 
 /* <------------------------------------------------------------------> */
 
 //this is how you select items from a database to view them
 //this query here is selecting all of the items from users table with the *
-pgClient.query('SELECT * FROM users', function(err, result) {
-    console.log(result.rows);
-		pgClient.end();
-});
+// pgClient.query('SELECT * FROM users', function(err, result) {
+//     console.log(result.rows);
+// 		pgClient.end();
+// });
 
 // This is the query to insert/add items to a database
 /* as you can see by the query:
