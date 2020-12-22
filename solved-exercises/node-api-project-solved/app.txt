@@ -860,3 +860,16 @@ Price: undefined
 Phone: +12014336700
 Closed Right Now: No
 
+
+-------------Geocoder Search Result-----------
+Street: Wayne Street
+Neighborhood: Downtown Jersey City
+Country: Hudson County
+Zip Code: 07302
+Latitude: 40.7198124, Longitude: -74.046695
+
+-------------Geocoder Search Result-----------
+Street: Denerail Road
+Country: Monmouth County
+Zip Code: 07726
+Latitude: 40.2576933, Longitude: -74.3516976

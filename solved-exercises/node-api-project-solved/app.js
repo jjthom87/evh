@@ -1,7 +1,7 @@
 /*
 	The main page of the application, used to combine your three calls into on central call
 */
-//requiring my 3 files used to query 3 different apis
+//requiring/importing my 3 files used to query 3 different apis
 var yelp = require('./yelp.js');
 var geocoder = require('./geocoder.js');
 var youtube = require('./youtube.js')
@@ -21,7 +21,7 @@ if(command){
 			youtube(process.argv.slice(3).join(" "));
 			break;
 		case 'geocoder':
-			geocoder(process.argv.slice(3).join(" "));
+			geocoder();
 			break;
 		default:
 			//if the 2nd argument does not match the cases above, do this

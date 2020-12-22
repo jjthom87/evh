@@ -1,5 +1,11 @@
 # First day of MySql
 
+## CRUD
+- C = Create
+- R = Read
+- U = Update
+- D = Delete
+
 ## Sql Language
 * Create Database Through PG Admin Tool
 * Schema Change - Create Table

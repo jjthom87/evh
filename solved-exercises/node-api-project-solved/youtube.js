@@ -16,14 +16,14 @@ module.exports = (argThree) => {
 	//to get the api key go here: https://developers.google.com/youtube/v3
 
 	//look in their documentation, this is how it's done
-youtubeSearch(argThree, opts, (err, results) => {
+	youtubeSearch(argThree, opts, (err, results) => {
 		//logging an error if there is one
 		if(err) {
 			return console.log(err);
 		}
 		//creating a string to append to later on
 		var str = "";
-		//parsing through my results
+		//parsing through the results array
 		for(var i = 0; i < results.length; i++){
 			//console.log(results)
 			//and logging them

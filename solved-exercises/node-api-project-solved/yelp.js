@@ -10,10 +10,8 @@ module.exports = () => {
 
 		const yelp = require('yelp-fusion');
     const inquirer = require('inquirer');
-		//these keys were not part of your important because they're my
-		//private keys. CREATE YOUR OWN!!!
 
-		//inserting my created token into the built in client
+		//inserting my created token into the built in client 'yelp.client(<API KEY>)'
 		//yelp-fusion built a nice little tool for you to easily
 		//access their api instead of you having to use a url string
 		//look at how nice they made their tool
