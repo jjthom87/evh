@@ -31,8 +31,8 @@ databaseConnection.query("INSERT INTO users (first_name, last_name, email, usern
 		//then logging the error
 		console.log(err);
 	} else {
-		// if not error, then logging the successful response here
-    console.log("Logging the result")
+		// if not error, then logging the successful response from the database insert here
+    console.log("Logging the response")
     console.log(result);
 
     // closing the database connection

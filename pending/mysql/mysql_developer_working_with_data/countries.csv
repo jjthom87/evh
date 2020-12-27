@@ -1,0 +1,248 @@
+name,capital,relevance,region,subregion,population,demonym,area,gini,nativeName,alpha2Code,alpha3Code
+Afghanistan,Kabul,0,Asia,"Southern Asia",26023100,Afghan,652230,28,افغانستان,AF,AFG
+"Åland Islands",Mariehamn,0,Europe,"Northern Europe",28875,Ålandish,1580,NULL,Åland,AX,ALA
+Albania,Tirana,0,Europe,"Southern Europe",2893005,Albanian,28748,35,Shqipëria,AL,ALB
+Algeria,Algiers,0,Africa,"Northern Africa",39500000,Algerian,2381741,35,الجزائر,DZ,DZA
+"American Samoa","Pago Pago",0.5,Oceania,Polynesia,55519,"American Samoan",199,NULL,"American Samoa",AS,ASM
+Andorra,"Andorra la Vella",0.5,Europe,"Southern Europe",76949,Andorran,468,NULL,Andorra,AD,AND
+Angola,Luanda,0,Africa,"Middle Africa",24383301,Angolan,1246700,59,Angola,AO,AGO
+Anguilla,"The Valley",0.5,Americas,Caribbean,13452,Anguillian,91,NULL,Anguilla,AI,AIA
+"Antigua and Barbuda","Saint John's",0.5,Americas,Caribbean,86295,"Antiguan, Barbudan",442,NULL,"Antigua and Barbuda",AG,ATG
+Argentina,"Buenos Aires",0,Americas,"South America",43131966,Argentinean,2780400,45,Argentina,AR,ARG
+Armenia,Yerevan,0,Asia,"Western Asia",3006800,Armenian,29743,31,Հայաստան,AM,ARM
+Aruba,Oranjestad,0.5,Americas,Caribbean,107394,Aruban,180,NULL,Aruba,AW,ABW
+Australia,Canberra,1.5,Oceania,"Australia and New Zealand",23868800,Australian,7692024,31,Australia,AU,AUS
+Austria,Vienna,0,Europe,"Western Europe",8602112,Austrian,83871,26,Österreich,AT,AUT
+Azerbaijan,Baku,0,Asia,"Western Asia",9636300,Azerbaijani,86600,34,Azərbaycan,AZ,AZE
+"The Bahamas",Nassau,0,Americas,Caribbean,368390,Bahamian,13943,NULL,Bahamas,BS,BHS
+Bahrain,Manama,0,Asia,"Western Asia",1359800,Bahraini,765,NULL,‏البحرين,BH,BHR
+Bangladesh,Dhaka,2,Asia,"Southern Asia",158875000,Bangladeshi,147570,32,Bangladesh,BD,BGD
+Barbados,Bridgetown,0,Americas,Caribbean,285000,Barbadian,430,NULL,Barbados,BB,BRB
+Belarus,Minsk,0,Europe,"Eastern Europe",9485300,Belarusian,207600,27,Белару́сь,BY,BLR
+Belgium,Brussels,1.5,Europe,"Western Europe",11248330,Belgian,30528,33,België,BE,BEL
+Belize,Belmopan,0,Americas,"Central America",368310,Belizean,22966,53,Belize,BZ,BLZ
+Benin,Porto-Novo,0,Africa,"Western Africa",10315244,Beninese,112622,39,Bénin,BJ,BEN
+Bermuda,Hamilton,0.5,Americas,"Northern America",64237,Bermudian,54,NULL,Bermuda,BM,BMU
+Bhutan,Thimphu,0,Asia,"Southern Asia",763920,Bhutanese,38394,38,ʼbrug-yul,BT,BTN
+Bolivia,Sucre,0,Americas,"South America",11410651,Bolivian,1098581,56,Bolivia,BO,BOL
+Bonaire,Kralendijk,0,Americas,Caribbean,17408,Dutch,294,NULL,Bonaire,BQ,BES
+"Bosnia and Herzegovina",Sarajevo,0,Europe,"Southern Europe",3791622,"Bosnian, Herzegovinian",51209,36,"Bosna i Hercegovina",BA,BIH
+Botswana,Gaborone,0,Africa,"Southern Africa",2070984,Motswana,582000,61,Botswana,BW,BWA
+"Bouvet Island",,0,,,0,,49,NULL,Bouvetøya,BV,BVT
+Brazil,Brasília,2,Americas,"South America",204772000,Brazilian,8515767,55,Brasil,BR,BRA
+"British Indian Ocean Territory","Diego Garcia",0,Africa,"Eastern Africa",3000,Indian,60,NULL,"British Indian Ocean Territory",IO,IOT
+"United States Minor Outlying Islands",,0,Americas,"Northern America",300,American,NULL,NULL,"United States Minor Outlying Islands",UM,UMI
+"British Virgin Islands","Road Town",0.5,Americas,Caribbean,28054,"Virgin Islander",151,NULL,"British Virgin Islands",VG,VGB
+Brunei,"Bandar Seri Begawan",0,Asia,"South-Eastern Asia",393372,Bruneian,5765,NULL,"Negara Brunei Darussalam",BN,BRN
+Bulgaria,Sofia,0,Europe,"Eastern Europe",7202198,Bulgarian,110879,28,България,BG,BGR
+"Burkina Faso",Ouagadougou,0,Africa,"Western Africa",18450494,Burkinabe,272967,40,"Burkina Faso",BF,BFA
+Burundi,Bujumbura,0,Africa,"Eastern Africa",9823827,Burundian,27834,33,Burundi,BI,BDI
+Cambodia,"Phnom Penh",0,Asia,"South-Eastern Asia",15405157,Cambodian,181035,38,Kâmpŭchéa,KH,KHM
+Cameroon,Yaoundé,0,Africa,"Middle Africa",23344000,Cameroonian,475442,39,Cameroon,CM,CMR
+Canada,Ottawa,2,Americas,"Northern America",35749600,Canadian,9984670,33,Canada,CA,CAN
+"Cape Verde",Praia,0,Africa,"Western Africa",524833,"Cape Verdian",4033,51,"Cabo Verde",CV,CPV
+"Cayman Islands","George Town",0.5,Americas,Caribbean,58238,Caymanian,264,NULL,"Cayman Islands",KY,CYM
+"Central African Republic",Bangui,0,Africa,"Middle Africa",4900000,"Central African",622984,56,"Ködörösêse tî Bêafrîka",CF,CAF
+Chad,N'Djamena,0,Africa,"Middle Africa",14037000,Chadian,1284000,40,Tchad,TD,TCD
+Chile,Santiago,0,Americas,"South America",18006407,Chilean,756102,52,Chile,CL,CHL
+China,Beijing,0,Asia,"Eastern Asia",1371590000,Chinese,9640011,47,中国,CN,CHN
+"Christmas Island","Flying Fish Cove",0.5,Oceania,"Australia and New Zealand",2072,"Christmas Island",135,NULL,"Christmas Island",CX,CXR
+"Cocos (Keeling) Islands","West Island",0,Oceania,"Australia and New Zealand",550,"Cocos Islander",14,NULL,"Cocos (Keeling) Islands",CC,CCK
+Colombia,Bogotá,0,Americas,"South America",48266600,Colombian,1141748,56,Colombia,CO,COL
+Comoros,Moroni,0,Africa,"Eastern Africa",784745,Comoran,1862,64,Komori,KM,COM
+"Republic of the Congo",Brazzaville,0,Africa,"Middle Africa",4620000,Congolese,342000,47,"République du Congo",CG,COG
+"Democratic Republic of the Congo",Kinshasa,0,Africa,"Middle Africa",77267000,Congolese,2344858,NULL,"République démocratique du Congo",CD,COD
+"Cook Islands",Avarua,0.5,Oceania,Polynesia,14974,"Cook Islander",236,NULL,"Cook Islands",CK,COK
+"Costa Rica","San José",0,Americas,"Central America",4773130,"Costa Rican",51100,51,"Costa Rica",CR,CRI
+Croatia,Zagreb,0,Europe,"Southern Europe",4246800,Croatian,56594,34,Hrvatska,HR,HRV
+Cuba,Havana,0,Americas,Caribbean,11238317,Cuban,109884,NULL,Cuba,CU,CUB
+Curaçao,Willemstad,0,Americas,Caribbean,154843,Dutch,444,NULL,Curaçao,CW,CUW
+Cyprus,Nicosia,0,Europe,"Southern Europe",858000,Cypriot,9251,NULL,Κύπρος,CY,CYP
+"Czech Republic",Prague,0,Europe,"Eastern Europe",10537818,Czech,78865,26,"Česká republika",CZ,CZE
+Denmark,Copenhagen,1.5,Europe,"Northern Europe",5678348,Danish,43094,24,Danmark,DK,DNK
+Djibouti,Djibouti,0,Africa,"Eastern Africa",888000,Djibouti,23200,40,Djibouti,DJ,DJI
+Dominica,Roseau,0.5,Americas,Caribbean,71293,Dominican,751,NULL,Dominica,DM,DMA
+"Dominican Republic","Santo Domingo",0,Americas,Caribbean,10528000,Dominican,48671,47,"República Dominicana",DO,DOM
+Ecuador,Quito,0,Americas,"South America",16027500,Ecuadorean,276841,49,Ecuador,EC,ECU
+Egypt,Cairo,1.5,Africa,"Northern Africa",89335600,Egyptian,1002450,31,مصر‎,EG,EGY
+"El Salvador","San Salvador",0,Americas,"Central America",6401240,Salvadoran,21041,48,"El Salvador",SV,SLV
+"Equatorial Guinea",Malabo,0,Africa,"Middle Africa",1430000,"Equatorial Guinean",28051,NULL,"Guinea Ecuatorial",GQ,GNQ
+Eritrea,Asmara,0,Africa,"Eastern Africa",5228000,Eritrean,117600,NULL,ኤርትራ,ER,ERI
+Estonia,Tallinn,0,Europe,"Northern Europe",1313271,Estonian,45227,36,Eesti,EE,EST
+Ethiopia,"Addis Ababa",0,Africa,"Eastern Africa",90076012,Ethiopian,1104300,30,ኢትዮጵያ,ET,ETH
+"Falkland Islands",Stanley,0.5,Americas,"South America",3000,"Falkland Islander",12173,NULL,"Falkland Islands",FK,FLK
+"Faroe Islands",Tórshavn,0.5,Europe,"Northern Europe",48846,Faroese,1393,NULL,Føroyar,FO,FRO
+Fiji,Suva,0,Oceania,Melanesia,859178,Fijian,18272,43,Fiji,FJ,FJI
+Finland,Helsinki,0.5,Europe,"Northern Europe",5485215,Finnish,338424,27,Suomi,FI,FIN
+France,Paris,2.5,Europe,"Western Europe",66186000,French,640679,33,France,FR,FRA
+"French Guiana",Cayenne,0,Americas,"South America",239648,,NULL,NULL,"Guyane française",GF,GUF
+"French Polynesia",Papeetē,0,Oceania,Polynesia,268270,"French Polynesian",4167,NULL,"Polynésie française",PF,PYF
+"French Southern and Antarctic Lands",Port-aux-Français,0,,,140,French,7747,NULL,"Territoire des Terres australes et antarctiques françaises",TF,ATF
+Gabon,Libreville,0,Africa,"Middle Africa",1725000,Gabonese,267668,42,Gabon,GA,GAB
+"The Gambia",Banjul,0,Africa,"Western Africa",1882450,Gambian,11295,NULL,Gambia,GM,GMB
+Georgia,Tbilisi,0,Asia,"Western Asia",3729500,Georgian,69700,41,საქართველო,GE,GEO
+Germany,Berlin,3,Europe,"Western Europe",81083600,German,357114,28,Deutschland,DE,DEU
+Ghana,Accra,0,Africa,"Western Africa",27043093,Ghanaian,238533,43,Ghana,GH,GHA
+Gibraltar,Gibraltar,0.5,Europe,"Southern Europe",32734,Gibraltar,6,NULL,Gibraltar,GI,GIB
+Greece,Athens,1.5,Europe,"Southern Europe",10846979,Greek,131990,34,Ελλάδα,GR,GRC
+Greenland,Nuuk,0.5,Americas,"Northern America",56114,Greenlandic,2166086,NULL,"Kalaallit Nunaat",GL,GRL
+Grenada,"St. George's",0,Americas,Caribbean,103328,Grenadian,344,NULL,Grenada,GD,GRD
+Guadeloupe,Basse-Terre,0,Americas,Caribbean,403750,Guadeloupian,NULL,NULL,Guadeloupe,GP,GLP
+Guam,Hagåtña,0,Oceania,Micronesia,159358,Guamanian,549,NULL,Guam,GU,GUM
+Guatemala,"Guatemala City",0,Americas,"Central America",16176133,Guatemalan,108889,56,Guatemala,GT,GTM
+Guernsey,"St. Peter Port",0.5,Europe,"Northern Europe",65150,"Channel Islander",78,NULL,Guernsey,GG,GGY
+Guinea,Conakry,0,Africa,"Western Africa",10628972,Guinean,245857,39,Guinée,GN,GIN
+Guinea-Bissau,Bissau,0,Africa,"Western Africa",1844000,Guinea-Bissauan,36125,36,Guiné-Bissau,GW,GNB
+Guyana,Georgetown,0,Americas,"South America",746900,Guyanese,214969,45,Guyana,GY,GUY
+Haiti,Port-au-Prince,0,Americas,Caribbean,10911819,Haitian,27750,59,Haïti,HT,HTI
+"Heard Island and McDonald Islands",,0,,,0,"Heard and McDonald Islander",412,NULL,"Heard Island and McDonald Islands",HM,HMD
+Honduras,Tegucigalpa,0,Americas,"Central America",8725111,Honduran,112492,57,Honduras,HN,HND
+"Hong Kong","City of Victoria",0,Asia,"Eastern Asia",7298600,Chinese,1104,53,香港,HK,HKG
+Hungary,Budapest,0,Europe,"Eastern Europe",9849000,Hungarian,93028,31,Magyarország,HU,HUN
+Iceland,Reykjavik,0,Europe,"Northern Europe",330610,Icelander,103000,NULL,Ísland,IS,ISL
+India,"New Delhi",3,Asia,"Southern Asia",1275840000,Indian,3287590,33,भारत,IN,IND
+Indonesia,Jakarta,2,Asia,"South-Eastern Asia",255461700,Indonesian,1904569,34,Indonesia,ID,IDN
+"Ivory Coast",Yamoussoukro,0,Africa,"Western Africa",22671331,Ivorian,322463,42,"Côte d'Ivoire",CI,CIV
+Iran,Tehran,0,Asia,"Southern Asia",78572500,Iranian,1648195,38,Irān,IR,IRN
+Iraq,Baghdad,0,Asia,"Western Asia",36004552,Iraqi,438317,31,العراق,IQ,IRQ
+"Republic of Ireland",Dublin,1.2,Europe,"Northern Europe",6378000,Irish,70273,34,Éire,IE,IRL
+"Isle of Man",Douglas,0.5,Europe,"Northern Europe",84497,Manx,572,NULL,"Isle of Man",IM,IMN
+Israel,Jerusalem,0,Asia,"Western Asia",8371600,Israeli,20770,39,יִשְׂרָאֵל,IL,ISR
+Italy,Rome,2,Europe,"Southern Europe",60753794,Italian,301336,36,Italia,IT,ITA
+Jamaica,Kingston,0,Americas,Caribbean,2717991,Jamaican,10991,46,Jamaica,JM,JAM
+Japan,Tokyo,2.5,Asia,"Eastern Asia",126865000,Japanese,377930,38,日本,JP,JPN
+Jersey,"Saint Helier",0.5,Europe,"Northern Europe",99000,"Channel Islander",116,NULL,Jersey,JE,JEY
+Jordan,Amman,0,Asia,"Western Asia",6767600,Jordanian,89342,35,الأردن,JO,JOR
+Kazakhstan,Astana,0,Asia,"Central Asia",17541200,Kazakhstani,2724900,29,Қазақстан,KZ,KAZ
+Kenya,Nairobi,0,Africa,"Eastern Africa",46050000,Kenyan,580367,48,Kenya,KE,KEN
+Kiribati,"South Tarawa",0,Oceania,Micronesia,106461,I-Kiribati,811,NULL,Kiribati,KI,KIR
+Kuwait,"Kuwait City",0,Asia,"Western Asia",3268431,Kuwaiti,17818,NULL,الكويت,KW,KWT
+Kyrgyzstan,Bishkek,0,Asia,"Central Asia",5944400,Kirghiz,199951,36,Кыргызстан,KG,KGZ
+Laos,Vientiane,0,Asia,"South-Eastern Asia",6802000,Laotian,236800,37,ສປປລາວ,LA,LAO
+Latvia,Riga,0,Europe,"Northern Europe",1980700,Latvian,64559,37,Latvija,LV,LVA
+Lebanon,Beirut,0,Asia,"Western Asia",4104000,Lebanese,10452,NULL,لبنان,LB,LBN
+Lesotho,Maseru,0,Africa,"Southern Africa",2135000,Mosotho,30355,53,Lesotho,LS,LSO
+Liberia,Monrovia,0,Africa,"Western Africa",4503000,Liberian,111369,38,Liberia,LR,LBR
+Libya,Tripoli,0,Africa,"Northern Africa",6278000,Libyan,1759540,NULL,‏ليبيا,LY,LBY
+Liechtenstein,Vaduz,0,Europe,"Western Europe",37370,Liechtensteiner,160,NULL,Liechtenstein,LI,LIE
+Lithuania,Vilnius,0,Europe,"Northern Europe",2900787,Lithuanian,65300,38,Lietuva,LT,LTU
+Luxembourg,Luxembourg,0,Europe,"Western Europe",562958,Luxembourger,2586,31,Luxembourg,LU,LUX
+Macau,,0,Asia,"Eastern Asia",642900,Chinese,30,NULL,澳門,MO,MAC
+"Republic of Macedonia",Skopje,0,Europe,"Southern Europe",2058539,Macedonian,25713,43,Македонија,MK,MKD
+Madagascar,Antananarivo,0,Africa,"Eastern Africa",22434363,Malagasy,587041,44,Madagasikara,MG,MDG
+Malawi,Lilongwe,0,Africa,"Eastern Africa",16310431,Malawian,118484,39,Malawi,MW,MWI
+Malaysia,"Kuala Lumpur",0,Asia,"South-Eastern Asia",30678800,Malaysian,330803,46,Malaysia,MY,MYS
+Maldives,Malé,0,Asia,"Southern Asia",341256,Maldivan,300,37,Maldives,MV,MDV
+Mali,Bamako,0,Africa,"Western Africa",17600000,Malian,1240192,33,Mali,ML,MLI
+Malta,Valletta,0,Europe,"Southern Europe",445426,Maltese,316,NULL,Malta,MT,MLT
+"Marshall Islands",Majuro,0.5,Oceania,Micronesia,56086,Marshallese,181,NULL,M̧ajeļ,MH,MHL
+Martinique,Fort-de-France,0,Americas,Caribbean,381326,French,NULL,NULL,Martinique,MQ,MTQ
+Mauritania,Nouakchott,0,Africa,"Western Africa",3631775,Mauritanian,1030700,41,موريتانيا,MR,MRT
+Mauritius,"Port Louis",0,Africa,"Eastern Africa",1261208,Mauritian,2040,NULL,Maurice,MU,MUS
+Mayotte,Mamoudzou,0,Africa,"Eastern Africa",212645,French,NULL,NULL,Mayotte,YT,MYT
+Mexico,"Mexico City",1.5,Americas,"Central America",121740000,Mexican,1964375,47,México,MX,MEX
+"Federated States of Micronesia",Palikir,0,Oceania,Micronesia,101351,Micronesian,702,NULL,Micronesia,FM,FSM
+Moldova,Chișinău,0,Europe,"Eastern Europe",3555200,Moldovan,33846,33,Moldova,MD,MDA
+Monaco,Monaco,0,Europe,"Western Europe",37800,Monegasque,2,NULL,Monaco,MC,MCO
+Mongolia,"Ulan Bator",0,Asia,"Eastern Asia",3031099,Mongolian,1564110,37,"Монгол улс",MN,MNG
+Montenegro,Podgorica,0,Europe,"Southern Europe",621207,Montenegrin,13812,30,"Црна Гора",ME,MNE
+Montserrat,Plymouth,0.5,Americas,Caribbean,4922,Montserratian,102,NULL,Montserrat,MS,MSR
+Morocco,Rabat,0,Africa,"Northern Africa",33337529,Moroccan,446550,41,المغرب,MA,MAR
+Mozambique,Maputo,0,Africa,"Eastern Africa",25727911,Mozambican,801590,46,Moçambique,MZ,MOZ
+Myanmar,Naypyidaw,0,Asia,"South-Eastern Asia",53897000,Burmese,676578,NULL,Myanma,MM,MMR
+Namibia,Windhoek,0,Africa,"Southern Africa",2280700,Namibian,825615,64,Namibia,NA,NAM
+Nauru,Yaren,0.5,Oceania,Micronesia,10084,Nauruan,21,NULL,Nauru,NR,NRU
+Nepal,Kathmandu,0,Asia,"Southern Asia",28037904,Nepalese,147181,33,नपल,NP,NPL
+Netherlands,Amsterdam,1.5,Europe,"Western Europe",16916000,Dutch,41850,31,Nederland,NL,NLD
+"New Caledonia",Nouméa,0.5,Oceania,Melanesia,268767,"New Caledonian",18575,NULL,Nouvelle-Calédonie,NC,NCL
+"New Zealand",Wellington,1.0,Oceania,"Australia and New Zealand",4609440,"New Zealander",270467,36,"New Zealand",NZ,NZL
+Nicaragua,Managua,0,Americas,"Central America",6198154,Nicaraguan,130373,41,Nicaragua,NI,NIC
+Niger,Niamey,0,Africa,"Western Africa",19899000,Nigerien,1267000,35,Niger,NE,NER
+Nigeria,Abuja,1.5,Africa,"Western Africa",182202000,Nigerian,923768,49,Nigeria,NG,NGA
+Niue,Alofi,0.5,Oceania,Polynesia,1613,Niuean,260,NULL,Niuē,NU,NIU
+"Norfolk Island",Kingston,0.5,Oceania,"Australia and New Zealand",2302,"Norfolk Islander",36,NULL,"Norfolk Island",NF,NFK
+"North Korea",Pyongyang,0,Asia,"Eastern Asia",25155000,"North Korean",120538,NULL,북한,KP,PRK
+"Northern Mariana Islands",Saipan,0.5,Oceania,Micronesia,53883,American,464,NULL,"Northern Mariana Islands",MP,MNP
+Norway,Oslo,1.5,Europe,"Northern Europe",5176998,Norwegian,323802,26,Norge,NO,NOR
+Oman,Muscat,0,Asia,"Western Asia",4185440,Omani,309500,NULL,عمان,OM,OMN
+Pakistan,Islamabad,2,Asia,"Southern Asia",190668000,Pakistani,881912,30,Pakistan,PK,PAK
+Palau,Ngerulmud,0.5,Oceania,Micronesia,20901,Palauan,459,NULL,Palau,PW,PLW
+Palestine,Ramallah,0,Asia,"Western Asia",4682467,Palestinian,NULL,36,فلسطين,PS,PSE
+Panama,"Panama City",0,Americas,"Central America",3764166,Panamanian,75417,52,Panamá,PA,PAN
+"Papua New Guinea","Port Moresby",0,Oceania,Melanesia,7398500,"Papua New Guinean",462840,51,"Papua Niugini",PG,PNG
+Paraguay,Asunción,0,Americas,"South America",7003406,Paraguayan,406752,52,Paraguay,PY,PRY
+Peru,Lima,0,Americas,"South America",31151643,Peruvian,1285216,48,Perú,PE,PER
+Philippines,Manila,1.5,Asia,"South-Eastern Asia",101920000,Filipino,342353,43,Pilipinas,PH,PHL
+"Pitcairn Islands",Adamstown,0.5,Oceania,Polynesia,56,"Pitcairn Islander",47,NULL,"Pitcairn Islands",PN,PCN
+Poland,Warsaw,1.25,Europe,"Eastern Europe",38484000,Polish,312679,34,Polska,PL,POL
+Portugal,Lisbon,1.5,Europe,"Southern Europe",10374822,Portuguese,92090,39,Portugal,PT,PRT
+"Puerto Rico","San Juan",0,Americas,Caribbean,3548397,"Puerto Rican",8870,NULL,"Puerto Rico",PR,PRI
+Qatar,Doha,0,Asia,"Western Asia",2120129,Qatari,11586,41,قطر,QA,QAT
+"Republic of Kosovo",Pristina,0,Europe,"Eastern Europe",1733842,Kosovar,10908,NULL,"Republika e Kosovës",XK,KOS
+Réunion,Saint-Denis,0,Africa,"Eastern Africa",840974,French,NULL,NULL,"La Réunion",RE,REU
+Romania,Bucharest,0,Europe,"Eastern Europe",19942642,Romanian,238391,30,România,RO,ROU
+Russia,Moscow,2.5,Europe,"Eastern Europe",146556330,Russian,17124442,40,Россия,RU,RUS
+Rwanda,Kigali,0,Africa,"Eastern Africa",11262564,Rwandan,26338,51,Rwanda,RW,RWA
+"Saint Barthélemy",Gustavia,0,Americas,Caribbean,9269,"Saint Barthélemy Islander",21,NULL,Saint-Barthélemy,BL,BLM
+"Saint Helena",Jamestown,0,Africa,"Western Africa",4255,"Saint Helenian",NULL,NULL,"Saint Helena",SH,SHN
+"Saint Kitts and Nevis",Basseterre,0,Americas,Caribbean,56000,"Kittian and Nevisian",261,NULL,"Saint Kitts and Nevis",KN,KNA
+"Saint Lucia",Castries,0,Americas,Caribbean,185000,"Saint Lucian",616,43,"Saint Lucia",LC,LCA
+"Saint Martin",Marigot,0,Americas,Caribbean,36979,"Saint Martin Islander",53,NULL,Saint-Martin,MF,MAF
+"Saint Pierre and Miquelon",Saint-Pierre,0,Americas,"Northern America",6069,French,242,NULL,Saint-Pierre-et-Miquelon,PM,SPM
+"Saint Vincent and the Grenadines",Kingstown,0,Americas,Caribbean,109991,"Saint Vincentian",389,NULL,"Saint Vincent and the Grenadines",VC,VCT
+Samoa,Apia,0,Oceania,Polynesia,187820,Samoan,2842,NULL,Samoa,WS,WSM
+"San Marino","City of San Marino",0,Europe,"Southern Europe",32831,Sammarinese,61,NULL,"San Marino",SM,SMR
+"São Tomé and Príncipe","São Tomé",0,Africa,"Middle Africa",187356,"Sao Tomean",964,51,"São Tomé e Príncipe",ST,STP
+"Saudi Arabia",Riyadh,0,Asia,"Western Asia",31521418,"Saudi Arabian",2149690,NULL,"العربية السعودية",SA,SAU
+Senegal,Dakar,0,Africa,"Western Africa",13508715,Senegalese,196722,39,Sénégal,SN,SEN
+Serbia,Belgrade,0,Europe,"Southern Europe",7114393,Serbian,88361,28,Србија,RS,SRB
+Seychelles,Victoria,0.5,Africa,"Eastern Africa",89949,Seychellois,452,66,Seychelles,SC,SYC
+"Sierra Leone",Freetown,0,Africa,"Western Africa",6453000,"Sierra Leonean",71740,43,"Sierra Leone",SL,SLE
+Singapore,Singapore,0,Asia,"South-Eastern Asia",5469700,Singaporean,710,48,Singapore,SG,SGP
+"Sint Maarten",Philipsburg,0,Americas,Caribbean,37429,Dutch,34,NULL,"Sint Maarten",SX,SXM
+Slovakia,Bratislava,0,Europe,"Eastern Europe",5421349,Slovak,49037,26,Slovensko,SK,SVK
+Slovenia,Ljubljana,0,Europe,"Southern Europe",2067683,Slovene,20273,31,Slovenija,SI,SVN
+"Solomon Islands",Honiara,0,Oceania,Melanesia,581344,"Solomon Islander",28896,NULL,"Solomon Islands",SB,SLB
+Somalia,Mogadishu,0,Africa,"Eastern Africa",10787000,Somali,637657,NULL,Soomaaliya,SO,SOM
+"South Africa",Pretoria,0,Africa,"Southern Africa",54956900,"South African",1221037,63,"South Africa",ZA,ZAF
+"South Georgia","King Edward Point",0,Americas,"South America",30,"South Georgia and the South Sandwich Islander",NULL,NULL,"South Georgia",GS,SGS
+"South Korea",Seoul,1.5,Asia,"Eastern Asia",51448183,"South Korean",100210,31,대한민국,KR,KOR
+"South Sudan",Juba,0,Africa,"Middle Africa",11892934,"South Sudanese",619745,46,"South Sudan",SS,SSD
+Spain,Madrid,2,Europe,"Southern Europe",46439864,Spanish,505992,35,España,ES,ESP
+"Sri Lanka",Colombo,0,Asia,"Southern Asia",20675000,"Sri Lankan",65610,40,"śrī laṃkāva",LK,LKA
+Sudan,Khartoum,0,Africa,"Northern Africa",38435252,Sudanese,1886068,35,السودان,SD,SDN
+Suriname,Paramaribo,0,Americas,"South America",534189,Surinamer,163820,53,Suriname,SR,SUR
+"Svalbard and Jan Mayen",Longyearbyen,0.5,Europe,"Northern Europe",2562,Norwegian,NULL,NULL,"Svalbard og Jan Mayen",SJ,SJM
+Swaziland,Lobamba,0,Africa,"Southern Africa",1119375,Swazi,17364,52,Swaziland,SZ,SWZ
+Sweden,Stockholm,1.5,Europe,"Northern Europe",9793172,Swedish,450295,25,Sverige,SE,SWE
+Switzerland,Bern,1.5,Europe,"Western Europe",8256000,Swiss,41284,34,Schweiz,CH,CHE
+Syria,Damascus,0,Asia,"Western Asia",23339517,Syrian,185180,36,سوريا,SY,SYR
+Taiwan,Taipei,0,Asia,"Eastern Asia",23461708,Taiwanese,36193,NULL,臺灣,TW,TWN
+Tajikistan,Dushanbe,0,Asia,"Central Asia",8354000,Tadzhik,143100,31,Тоҷикистон,TJ,TJK
+Tanzania,Dodoma,0,Africa,"Eastern Africa",53470000,Tanzanian,945087,38,Tanzania,TZ,TZA
+Thailand,Bangkok,0,Asia,"South-Eastern Asia",65104000,Thai,513120,40,ประเทศไทย,TH,THA
+"East Timor",Dili,0,Asia,"South-Eastern Asia",1212107,"East Timorese",14874,32,Timor-Leste,TL,TLS
+Togo,Lomé,0,Africa,"Western Africa",7305000,Togolese,56785,34,Togo,TG,TGO
+Tokelau,Fakaofo,0.5,Oceania,Polynesia,1411,Tokelauan,12,NULL,Tokelau,TK,TKL
+Tonga,Nuku'alofa,0,Oceania,Polynesia,103252,Tongan,747,NULL,Tonga,TO,TON
+"Trinidad and Tobago","Port of Spain",0,Americas,Caribbean,1340557,Trinidadian,5130,40,"Trinidad and Tobago",TT,TTO
+Tunisia,Tunis,0,Africa,"Northern Africa",10982754,Tunisian,163610,41,تونس,TN,TUN
+Turkey,Ankara,0,Asia,"Western Asia",77695904,Turkish,783562,39,Türkiye,TR,TUR
+Turkmenistan,Ashgabat,0,Asia,"Central Asia",4751120,Turkmen,488100,41,Türkmenistan,TM,TKM
+"Turks and Caicos Islands","Cockburn Town",0.5,Americas,Caribbean,31458,"Turks and Caicos Islander",948,NULL,"Turks and Caicos Islands",TC,TCA
+Tuvalu,Funafuti,0.5,Oceania,Polynesia,10640,Tuvaluan,26,NULL,Tuvalu,TV,TUV
+Uganda,Kampala,0,Africa,"Eastern Africa",34856813,Ugandan,241550,44,Uganda,UG,UGA
+Ukraine,Kiev,0,Europe,"Eastern Europe",42836922,Ukrainian,603700,26,Україна,UA,UKR
+"United Arab Emirates","Abu Dhabi",0,Asia,"Western Asia",9157000,Emirati,83600,NULL,"دولة الإمارات العربية المتحدة",AE,ARE
+"United Kingdom",London,2.5,Europe,"Northern Europe",64800000,British,242900,34,"United Kingdom",GB,GBR
+"United States","Washington D.C.",3.5,Americas,"Northern America",321645000,American,9629091,48,"United States",US,USA
+Uruguay,Montevideo,0,Americas,"South America",3415866,Uruguayan,181034,40,Uruguay,UY,URY
+Uzbekistan,Tashkent,0,Asia,"Central Asia",31022500,Uzbekistani,447400,37,O‘zbekiston,UZ,UZB
+Vanuatu,"Port Vila",0,Oceania,Melanesia,264652,Ni-Vanuatu,12189,NULL,Vanuatu,VU,VUT
+Venezuela,Caracas,0,Americas,"South America",30620404,Venezuelan,916445,45,Venezuela,VE,VEN
+Vietnam,Hanoi,1.5,Asia,"South-Eastern Asia",91812000,Vietnamese,331212,36,"Việt Nam",VN,VNM
+"Wallis and Futuna",Mata-Utu,0.5,Oceania,Polynesia,13135,"Wallis and Futuna Islander",142,NULL,"Wallis et Futuna",WF,WLF
+"Western Sahara","El Aaiún",0,Africa,"Northern Africa",510713,Sahrawi,266000,NULL,"الصحراء الغربية",EH,ESH
+Yemen,Sana'a,0,Asia,"Western Asia",25956000,Yemeni,527968,38,اليَمَن,YE,YEM
+Zambia,Lusaka,0,Africa,"Eastern Africa",15473905,Zambian,752612,55,Zambia,ZM,ZMB
+Zimbabwe,Harare,0,Africa,"Eastern Africa",13061239,Zimbabwean,390757,NULL,Zimbabwe,ZW,ZWE

@@ -1,6 +1,10 @@
 In MySQL Developer:
-  1. Create a Database
-  2. Create a Table in that Database
+  1. Create a Database called MyStore
+  2. Create a Table in that Database called 'product' with the columns:
+    * Name
+    * Price
+    * Quantity
+    * Category
 Using Node:
   3. Add 1 or more records to that Table
   4. Get the record(s) that you just added to that Table
