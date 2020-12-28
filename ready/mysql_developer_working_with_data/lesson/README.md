@@ -1,6 +1,6 @@
 # Working with Database Data
 
-## Importing data from .csv file to database
+## 1. Importing data from .csv file to database and creating 'countries' table
 * In MySql Developer:
   * Step 1
     * On the left hand side, under "Schemas", you will see your 'first_sql' database listed
@@ -18,3 +18,5 @@
   * Step 5
     * Click on 'next' and this will execute the data insertion from the .csv file
     * ![Step 5](./images/step_5.png)
+## 2. Running queries against 'countries' table
+  * See 'schema.sql' file

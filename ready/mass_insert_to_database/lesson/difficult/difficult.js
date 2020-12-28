@@ -44,6 +44,12 @@ fs.readFile('./countries.json', 'utf-8', function(fileReadErr, fileReadResponse)
 
     // creating my insertion string to the database
     // inserting each object into the countriesWithoutObjects table
+
+		// You see that some of the lines contain single quotes ', and some of them do not.
+    // That is because single quotes are only needed to be around strings in mysql.
+    // The fields where you do not see single quotes are for integers and decimals, i.e. Population & Area
+		// review the log of the final result of the insertConnectionString below
+
     // you see 'escapeApostrophe' is being called for every single key in every object
     var insertConnectionString = "INSERT INTO countriesWithoutObjects (name, capital, relevance, region, subregion, population, demonym, area, gini, nativeName, alpha2Code, alpha3Code) VALUES ";
     insertConnectionString += "(";
