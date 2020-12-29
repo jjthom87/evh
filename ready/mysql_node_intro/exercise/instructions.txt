@@ -1,6 +1,6 @@
 In MySQL Developer:
   1. Create a Database called MyStore
-  2. Create a Table in that Database called 'product' with the columns:
+  2. Create a Table in that Database called 'products' with the columns:
     * Name
     * Price
     * Quantity
