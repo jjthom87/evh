@@ -43,7 +43,7 @@ module.exports = () => {
 
   			//empty string to be appended onto later on
   			var str = "";
-  			for(var i = 0; i < response.jsonBody.businesses.length; i++){
+  			for(var i = 0; i < 5; i++){
   				//logging items from the api
   				console.log("-------------Yelp Search Result " + (i + 1) + "-----------")
   				console.log("Name: " + response.jsonBody.businesses[i].name);
@@ -66,8 +66,10 @@ module.exports = () => {
   				//look at the function in that file to see what goes in with that string
   				read_and_write(str)
   			}
+				// if there is an error
   		}).catch(e => {
-  		  console.log("Error: " + e);
+				// then throw the error
+  		  throw new Error(e)
   		});
   		//this is a function that i am creating in order to translate the response
   		//from the object to equal either yes or no. the response from the object

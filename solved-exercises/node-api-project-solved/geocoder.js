@@ -41,7 +41,7 @@ module.exports = () => {
 				//JSON.parse makes your object able to be looped and parsed through
 				//console.log(body.results[0].address_components)
 				var addressComponents = JSON.parse(body).results[0].address_components;
-				//console.log(addressComponents)
+				// console.log(addressComponents)
 				//using this variable which stores a part of the object for later on
 				//console.log(body.results[0].geometry)
 				var geometry = JSON.parse(body).results[0].geometry;
@@ -49,6 +49,7 @@ module.exports = () => {
 				console.log("-------------Geocoder Search Result-----------");
 				//appending this to the response_string to be added to the txt file
 				response_string += "-------------Geocoder Search Result-----------\n";
+
 				//looping through the addressComponents array,
 				//setting conditional to find the items i want
 				//logging each item and appending to 'str'
@@ -62,6 +63,10 @@ module.exports = () => {
 						response_string += "Neighborhood: " + addressComponents[i].long_name + "\n";
 					}
 					if(addressComponents[i].types[0] === 'administrative_area_level_2'){
+						console.log("City/County: " + addressComponents[i].long_name);
+						response_string += "City/County: " + addressComponents[i].long_name + "\n";
+					}
+					if(addressComponents[i].types[0] === 'administrative_area_level_1'){
 						console.log("Country: " + addressComponents[i].long_name);
 						response_string += "Country: " + addressComponents[i].long_name + "\n";
 					}
@@ -70,6 +75,7 @@ module.exports = () => {
 						response_string += "Zip Code: " + addressComponents[i].long_name + "\n";
 					}
 				}
+
 				//remember the geometry variable, its an object, not an array
 				//no need to loop through
 				console.log("Latitude: " + geometry.location.lat + ", Longitude: " + geometry.location.lng);
