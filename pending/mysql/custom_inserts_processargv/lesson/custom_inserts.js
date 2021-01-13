@@ -21,12 +21,17 @@ var databaseConnection = mysql.createConnection({
 // you dont need to put function after connect as long as the module
 // that you're using does good handling of the logs and errors
 // you can put the function after connect if you want custom logs and errors
-databaseConnection.connect(function(err, res){
-	if(err){
-		console.error("Error Connecting to Database");
-		console.error(err);
-	} else {
-		console.log("Successfully connected to database");
-		console.log(res);
-	}
+databaseConnection.connect();
+
+/* <------------------------------------------------------------------> */
+
+var table = process.argv[2];
+var field = process.argv[3];
+var value = process.argv.slice(4).;
+
+pgClient.query('INSERT INTO ' + table + ' (' + field + ') VALUES ()', function(err, result) {
+	if(err) throw err;
+	console.log("Insert Successful");
+	//closing after the query is made, stop the database server until it is needed again
+	databaseConnection.end();
 });

@@ -1,0 +1,12 @@
+In MySQL Developer:
+  1. Create a Database called MyStore
+  2. Create a Table in that Database called 'products' with the columns:
+    * Name
+    * Price
+    * Quantity
+    * Category
+Using Node:
+  3. Add 1 or more records to that Table
+  4. Get the record(s) that you just added to that Table
+  5. Update field(s) for the record(s) that you added to the Table
+  6. Delete record(s) from the Table
