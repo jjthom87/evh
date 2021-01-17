@@ -2,6 +2,9 @@
   In a many-to-many relationship, many records in a table can be associated with many records in another table
   We have already created a many-to-many relationship between the students table and the classes table
 
+  In this example, the classes table has a foreign key reference to the students table,
+  which is the relationshiop that connects both the students and classes table
+
   A student has many classes
   Classes have many students
 */

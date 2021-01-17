@@ -33,7 +33,8 @@ INNER JOIN countries ON country_people.country_of_origin=countries.name;
 */
 SELECT countries.name, country_people.name, countries.population
 FROM country_people
-INNER JOIN countries ON country_people.country_of_origin=countries.name WHERE countries.name='Dominican Republic';
+INNER JOIN countries ON country_people.country_of_origin=countries.name
+WHERE countries.name='Dominican Republic';
 
 /*
   Doing a join between the countries & country_people table
