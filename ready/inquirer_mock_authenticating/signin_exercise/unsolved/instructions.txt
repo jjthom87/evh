@@ -1,0 +1,7 @@
+* Using Inquirer and Mysql Modules
+* Prompt the user the option to sign in by
+asking them to input their username and their password.
+* You will be using your 'users' table here.
+* You should try by using a user who you just created in the last lesson.
+* If the input username and password match, then log that they matched
+* If the input username and password do not match, then throw an error
