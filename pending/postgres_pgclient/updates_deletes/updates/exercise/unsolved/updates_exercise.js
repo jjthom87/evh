@@ -1,5 +1,0 @@
-/*
-
-Create an update query that changes one of the favorite columns in the profile table for a certain user
-
-*/

@@ -1,15 +1,15 @@
 {
-  "name": "updates_lesson",
+  "name": "solved",
   "version": "1.0.0",
   "description": "",
-  "main": "fp.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon fp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg": "^7.4.0"
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
   }
 }
