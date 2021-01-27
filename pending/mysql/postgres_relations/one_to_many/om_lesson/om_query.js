@@ -5,15 +5,6 @@
 //node modules to request
 var pg = require('pg');
 
-//you have to pick the database to connect to;
-var dbUrl = {
-	user: 'jaredthomas',
-	password: '',
-	database: 'whatever',
-	host: 'localhost',
-	port: 5432
-};
-
 //creating a client to connect to, which as you see, uses the object that we set up
 var pgClient = new pg.Client(dbUrl);
 
@@ -29,11 +20,9 @@ pgClient.connect();
 //     pgClient.end();
 // });
 
-pgClient.query("SELECT id FROM users where username='jjthom87'", (error,results) => {
-	console.log(results.rows)
-	pgClient.query('SELECT * FROM blog_post WHERE user_id=' + results.rows[0].id, (err,res) => {
-		console.log(res.rows);
-	 	pgClient.end();
-	});
+pgClient.query('SELECT id, post FROM blog_post WHERE user_id=2', (err,res) => {
+	for(var i = 0; i < res.rows.length; i++){
+		console.log(res.rows[i].post)
+	}
+	pgClient.end();
 });
-

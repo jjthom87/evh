@@ -1,0 +1,16 @@
+- Using:
+  - Your 'users' table in mysql
+  - Inquirer & MySql NPM Modules
+
+- Give the user a choice to sign up or sign in
+- If they choose to sign up:
+  - prompt them to enter their first name, last name, email, username & password
+    - If the username exists already, error the the user that the username is taken
+    - If the username does not exist, tell the user that they've successfully signed up
+- If they choose to sign in:
+  - prompt the user to enter their username & password
+    - If the username does not exist, error this message to the user
+    - If the username does exist:
+      - Check to see that the password entered by the user matches the password in the database
+        - If the passwords does not match, error to the user this message
+        - If the passwords do match, let then know that they've successfully signed in

@@ -1,5 +1,5 @@
 {
-  "name": "join_yoozoo_app",
+  "name": "one_to_one",
   "version": "1.0.0",
   "description": "",
   "main": "mm_query.js",
@@ -9,7 +9,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^4.0.0",
-    "pg": "^7.4.0"
   }
 }
