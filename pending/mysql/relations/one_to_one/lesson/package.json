@@ -1,5 +1,5 @@
 {
-  "name": "one_to_many",
+  "name": "one_to_one",
   "version": "1.0.0",
   "description": "",
   "main": "mm_query.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^4.0.0",
-    "pg": "^7.4.0"
+    "mysql": "^2.18.1"
   }
 }
