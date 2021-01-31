@@ -1,16 +1,12 @@
-var pg = require('pg');
-var inquirer = require('inquirer');
+const inquirer = require('inquirer');
+//setup for connection database
+const mysql = require('mysql');
 
-var dbUrl = {
-	user: process.argv.POSTGRES_USER,
-	password: process.argv.POSTGRES_PASSWORD,
-	database: 'itunes',
-	host: 'localhost',
-	port: 5432
-};
+//creating the connection to the database
+const databaseConnection = mysql.createConnection("mysql://root:@localhost:3306/itunes");
 
-var pgClient = new pg.Client(dbUrl);
-pgClient.connect();
+//officially connecting to the mysql database
+databaseConnection.connect();
 
 console.log("iTunes");
 var runApp = () => {
@@ -42,7 +38,7 @@ var runApp = () => {
 						name: "password"
 					}
 				]).then(function(signup){
-					pgClient.query('INSERT INTO users (name, username, password) VALUES ($1, $2, $3)', [signup.name, signup.username, signup.password] , (signUpErr, signUpResult) => {
+					databaseConnection.query('INSERT INTO users (name, username, password) VALUES (\''+signup.name+'\', \''+signup.username+'\', \''+signup.password+'\')', function(signUpErr, signUpResult) {
 						if(signUpErr){
 							if(signUpErr.toString().indexOf('duplicate key value violates unique constraint "users_username_key"') > -1){
 								console.log("Username already taken, please re-enter");
@@ -72,15 +68,15 @@ var runApp = () => {
 					name: "password",
 				}
 			]).then((res) => {
-				pgClient.query(`SELECT * FROM users WHERE username='${res.username}'`, function(err, result) {
-					if(result.rows.length > 0){
-					    if(result.rows[0].password === res.password){
-					    	pgClient.query(`SELECT * FROM bank WHERE user_id=${result.rows[0].id}`, function(errTwo, resTwo){
+				databaseConnection.query(`SELECT * FROM users WHERE username='${res.username}'`, function(err, result) {
+					if(result.length > 0){
+					    if(result[0].password === res.password){
+					    	databaseConnection.query(`SELECT * FROM bank WHERE user_id=${result[0].id}`, function(errTwo, resTwo){
 					    		if(errTwo){
 					    			console.log(errTwo)
 					    		} else {
-					    			if(resTwo.rows.length == 0){
-					    				pgClient.query('INSERT INTO bank (user_id) VALUES ($1)', [result.rows[0].id], function(errThree, resThree){
+					    			if(resTwo.length == 0){
+					    				databaseConnection.query('INSERT INTO bank (user_id) VALUES ('+result[0].id+')', function(errThree, resThree){
 					    					if(errThree){
 					    						console.log(errThree);
 					    					}
@@ -92,30 +88,30 @@ var runApp = () => {
 								inquirer.prompt([
 									{
 										type: "list",
-										message: "Rock On " + result.rows[0].name,
+										message: "Rock On " + result[0].name,
 										choices: ["View Your Music", "Buy Music", "View Your Balance", "Sign Out"],
 										name: "sign_in_choice"
 									}
 								]).then(function(signed_in){
 									if(signed_in.sign_in_choice === "Buy Music"){
-										pgClient.query("Select balance FROM bank where user_id=" + result.rows[0].id, (errEight, resEight) => {
-											if(parseInt(resEight.rows[0].balance) > 0){
+										databaseConnection.query("Select balance FROM bank where user_id=" + result[0].id, (errEight, resEight) => {
+											if(parseInt(resEight[0].balance) > 0){
 												var allIds = [];
 												var boughtIds = [];
-												pgClient.query("SELECT songs.id FROM songs INNER JOIN bought_songs ON bought_songs.song_id=songs.id WHERE bought_songs.user_id=" + result.rows[0].id, function(songErr, songRes){
-													for(var i = 0;  i < songRes.rows.length; i++){
-														boughtIds.push(songRes.rows[i].id);
+												databaseConnection.query("SELECT songs.id FROM songs INNER JOIN bought_songs ON bought_songs.song_id=songs.id WHERE bought_songs.user_id=" + result[0].id, function(songErr, songRes){
+													for(var i = 0;  i < songRes.length; i++){
+														boughtIds.push(songRes[i].id);
 													}
-													pgClient.query("SELECT * FROM songs", function(songTwoErr, songTwoRes){
-														for(var j = 0; j < songTwoRes.rows.length; j++){
-															allIds.push(songTwoRes.rows[j].id);
+													databaseConnection.query("SELECT * FROM songs", function(songTwoErr, songTwoRes){
+														for(var j = 0; j < songTwoRes.length; j++){
+															allIds.push(songTwoRes[j].id);
 														}
 														//stack overflow
 														allIds = allIds.filter(val => !boughtIds.includes(val));
-														pgClient.query("SELECT * FROM songs WHERE id in (" + allIds.join(",") + ")", function(songThreeErr, songThreeRes){
+														databaseConnection.query("SELECT * FROM songs WHERE id in (" + allIds.join(",") + ")", function(songThreeErr, songThreeRes){
 															var songs = [];
-															for(var i = 0; i < songThreeRes.rows.length; i++){
-																songs.push((i + 1) + ". " + songThreeRes.rows[i].song_artist + ": " + songThreeRes.rows[i].song_name + ", Price: $" + songThreeRes.rows[i].price);
+															for(var i = 0; i < songThreeRes.length; i++){
+																songs.push((i + 1) + ". " + songThreeRes[i].song_artist + ": " + songThreeRes[i].song_name + ", Price: $" + songThreeRes[i].price);
 															}
 															songs.push("Go Back")
 															inquirer.prompt([
@@ -129,12 +125,12 @@ var runApp = () => {
 																if(songs.song_choice === "Go Back"){
 																	alreadySignedIn();
 																} else {
-																	pgClient.query("SELECT id FROM songs WHERE song_artist='" + songs.song_choice.split(":")[0].split(".")[1].trim() + "'", function(songErr, songRes){
+																	databaseConnection.query("SELECT id FROM songs WHERE song_artist='" + songs.song_choice.split(":")[0].split(".")[1].trim() + "'", function(songErr, songRes){
 																		if(songErr) throw songErr;
-																		pgClient.query('INSERT INTO bought_songs (user_id, song_id) VALUES ($1,$2)', [result.rows[0].id, songRes.rows[0].id], function(errFive, resFive){
+																		databaseConnection.query('INSERT INTO bought_songs (user_id, song_id) VALUES ('+result[0].id+', '+songRes[0].id+')', function(errFive, resFive){
 																			console.log("Song Bought");
 																		});
-																		pgClient.query('UPDATE bank SET balance=$1 WHERE user_id=' + result.rows[0].id, [(parseInt(resEight.rows[0].balance) - parseInt(songs.song_choice.split('$')[1]))], (errSeven, resSeven) => {
+																		databaseConnection.query('UPDATE bank SET balance='+(parseInt(resEight[0].balance) - parseInt(songs.song_choice.split('$')[1]))+' WHERE user_id=' + result[0].id, (errSeven, resSeven) => {
 																			console.log("Account Updated");
 																			alreadySignedIn();
 																		});
@@ -153,7 +149,7 @@ var runApp = () => {
 													}
 												]).then((bank_add_res) => {
 													if(parseInt(bank_add_res.bank_add) > 2){
-														pgClient.query("UPDATE bank SET balance=$1 WHERE user_id=" + result.rows[0].id, [parseInt(bank_add_res.bank_add)], (errNine, resNine) => {
+														databaseConnection.query("UPDATE bank SET balance="+parseInt(bank_add_res.bank_add)+" WHERE user_id=" + result[0].id, (errNine, resNine) => {
 															if(errNine){
 																console.log(errNine);
 															}
@@ -168,21 +164,21 @@ var runApp = () => {
 											}
 										});
 									} else if (signed_in.sign_in_choice === "View Your Music") {
-										pgClient.query('SELECT * FROM songs INNER JOIN bought_songs ON bought_songs.song_id=songs.id WHERE bought_songs.user_id=' + result.rows[0].id, (errSix, resSix) => {
-											for(var i = 0; i < resSix.rows.length; i++){
-												var obj = resSix.rows[i];
+										databaseConnection.query('SELECT * FROM songs INNER JOIN bought_songs ON bought_songs.song_id=songs.id WHERE bought_songs.user_id=' + result[0].id, (errSix, resSix) => {
+											for(var i = 0; i < resSix.length; i++){
+												var obj = resSix[i];
 												console.log((i + 1) + ". " + obj.song_artist + ": " + obj.song_name);
 											}
 											alreadySignedIn();
 										});
 									} else if (signed_in.sign_in_choice === "View Your Balance") {
-										pgClient.query('SELECT balance FROM bank WHERE user_id=' + result.rows[0].id, (bankErr, bankRes) => {
-											console.log("Current Balance: " + bankRes.rows[0].balance);
+										databaseConnection.query('SELECT balance FROM bank WHERE user_id=' + result[0].id, (bankErr, bankRes) => {
+											console.log("Current Balance: " + bankRes[0].balance);
 											alreadySignedIn();
 										});
 									} else {
-										console.log("Later " + result.rows[0].name);
-										pgClient.end();
+										console.log("Later " + result[0].name);
+										databaseConnection.end();
 									}
 								});
 							}

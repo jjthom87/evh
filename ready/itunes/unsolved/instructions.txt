@@ -1,0 +1,6 @@
+In MySQL Developer
+1. Create a Database called 'itunes'. In this database:
+  a. Create a 'users' table with fields id, name, username, password
+  b. Create a 'songs' table with fields id, song_artist, song_name, price (default value of 3)
+  c. Create a 'bought_songs' table with fields id, user_id (foreign key reference to users table), song_id (foreign key reference to songs table),
+  d. Create a 'bank' table with fields id, balance (default value of 0), user_id (foreign key reference to users table)

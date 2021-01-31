@@ -2,14 +2,14 @@
 
 <h2>Goal</h2>
 
-Develop a command line tool which stores users information and let's them buy and view their music using Node, Postgres & Inquirer.
+Develop a command line tool which stores users information and let's them buy and view their music using Node, MySQL & Inquirer.
 
 <h2>Assignment</h2>
 
 * Create a database called itunes.
 
 * Have 3 tables:
-	* A pre-populated songs table
+	* A songs table that you should populate manually
 		* Columns: id, song_title, song_artist
 	* A users table
 		* Columns: id, name, username, password
@@ -33,7 +33,7 @@ Develop a command line tool which stores users information and let's them buy an
 * Create a bank table:
 	* id, balance, user_id
 * Every time a user account is created, a bank record is created for that user
-* Add a column to your songs table called 'amount' which will be an INT and give each song a price
+* Add a column to your songs table called 'amount' which will be an INT and give each song a price with a default value of 3
 * When the user adds a song, have it deduce the amount that the song is priced at from the user's balance in the bank table.
 * Add a "View Your Balance" option to the inquirer prompt
 	* This should show the user's balance in the bank
@@ -41,4 +41,3 @@ Develop a command line tool which stores users information and let's them buy an
 * Use recursion to:
 	* Bring the app back to the sign up/sign in prompt if the username or password is incorrect
 	* Bring the app back to the user options prompt after a transaction is done
-	

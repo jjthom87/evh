@@ -1,0 +1,31 @@
+CREATE DATABASE itunes;
+USE itunes;
+
+CREATE TABLE users (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(255) NOT NULL,
+	username VARCHAR(255) NOT NULL UNIQUE,
+	password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE songs (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	song_artist VARCHAR(255) NOT NULL,
+	song_name VARCHAR(255) NOT NULL,
+	price INT DEFAULT 3
+);
+
+CREATE TABLE bought_songs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NOT NULL,
+  song_id INT NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (song_id) REFERENCES songs(id)
+);
+
+CREATE TABLE bank (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	balance VARCHAR(255) NOT NULL DEFAULT 0,
+	user_id INT NOT NULL,
+	FOREIGN KEY (user_id) REFERENCES users(id)
+);
