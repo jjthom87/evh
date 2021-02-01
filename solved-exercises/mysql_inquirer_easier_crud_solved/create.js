@@ -56,6 +56,7 @@ module.exports = function(inquirer, databaseConnection){
           if(err){
             throw new Error(err)
           }
+          console.log(res)
           console.log("Character Inserted")
         } catch (e){
           const errorString = e.toString();
