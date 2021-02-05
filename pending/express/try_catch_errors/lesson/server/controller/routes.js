@@ -18,8 +18,15 @@ router.get('/', function(req,res){
 //this post route is connected to an event on the front end/client side
 //whatever the client sends through will be the req.body
 router.post('/first-post', function(req,res){
-	console.log(req.body)
-	res.json(req.body)
+	try {
+		if(req.body.name == "bob"){
+			throw "Custom Error"
+		}
+		res.json(req.body)
+	} catch (e) {
+		console.log("here: " + e)
+		res.status(400).json({error: e})
+	}
 });
 
 //exporting routes to be imported in our server.js
