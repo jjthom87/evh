@@ -1,0 +1,22 @@
+Looney Tunes Characters CRUD
+
+Easier:
+1. Using Express, create a CRUD api for Looney Tunes Characters
+2. There should be 5 api routes:
+  a. Read all of the Looney Tunes Characters
+  b. Read one of the Looney Tunes Characters
+  c. Create a Looney Tunes Character
+  d. Update a Looney Tunes Character
+  e. Delete a Looney Tunes Character
+3. You will manage your Looney Tunes Character's using a static array
+
+Difficult:
+1. Using Express & MySQL, create a CRUD api for Looney Tunes Characters
+2. There should be 5 api routes:
+  a. Read all of the Looney Tunes Characters
+  b. Read one of the Looney Tunes Characters
+  c. Create a Looney Tunes Character
+  d. Update a Looney Tunes Character
+  e. Delete a Looney Tunes Character
+3. You will manage your Looney Tunes Character's using the database.
+   You should have one table called Looney Tunes Characters
