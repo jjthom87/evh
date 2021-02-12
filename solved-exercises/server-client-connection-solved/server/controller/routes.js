@@ -1,30 +1,8 @@
 /* <------------------------------------------------------------------> */
 
-//setup for connection database
-
-//node modules to request
-var pg = require('pg');
-
-//you have to pick the database to connect to;
-var dbUrl;
-
-if(process.env.DATABASE_URL){
-	dbUrl = process.env.DATABASE_URL
-} else {
-	dbUrl = {
-		user: process.argv.POSTGRES_USER,
-		password: process.argv.POSTGRES_PASSWORD,
-		database: 'guestbook',
-		host: 'localhost',
-		port: 5432
-	};
-}
-
-//creating a client to connect to, which as you see, uses the object that we set up
-var pgClient = new pg.Client(dbUrl);
-
-//officially connecting to that postgres database
-pgClient.connect();
+var mysql = require('mysql');
+const databaseConnection = mysql.createConnection(process.env.LOCAL_DATABASE);
+databaseConnection.connect();
 
 /* <------------------------------------------------------------------> */
 
@@ -40,8 +18,8 @@ router.get('/', function(req,res){
 router.post('/api/message', (req,res) => {
 	console.log(req.body)
 	if(req.body.name !== '' && req.body.message !== ''){
-		var query = "INSERT INTO guestbook (name, message) VALUES ($1, $2)";
-		pgClient.query(query, [req.body.name, req.body.message], (error,queryRes) => {
+		var query = "INSERT INTO guestbook (name, message) VALUES ('"+req.body.name+"', '"+req.body.message+"')";
+		databaseConnection.query(query, (error,queryRes) => {
 			if(error){
 				res.json(error)
 			} else {
@@ -49,14 +27,14 @@ router.post('/api/message', (req,res) => {
 			}
 		});
 	} else if (req.body.name === '' & req.body.message !== '') {
-		var query = "INSERT INTO guestbook (name, message) VALUES ($1, $2)";
-		pgClient.query(query, ["Guest", req.body.message], (error,queryRes) => {
+		var query = "INSERT INTO guestbook (name, message) VALUES ('Guest', '"+req.body.message+"')";
+		databaseConnection.query(query, (error,queryRes) => {
 			if(error){
 				res.json(error)
 			} else {
 				res.json(queryRes)
 			}
-		});		
+		});
 	} else if ((req.body.name !== '' && req.body.message === '') || (req.body.name === '' && req.body.message === '')) {
 		res.json("null_message")
 	}
@@ -64,17 +42,17 @@ router.post('/api/message', (req,res) => {
 
 router.get('/api/messages', (req,res) => {
 	var query = "SELECT * FROM guestbook";
-	pgClient.query(query, (error,queryRes) => {
+	databaseConnection.query(query, (error,queryRes) => {
 		if(error){
 			res.json(error)
 		} else {
 			res.json(queryRes)
 		}
-	});	
+	});
 });
 
 router.delete('/api/delete-message/:id', (req,res) => {
-	pgClient.query('DELETE FROM guestbook WHERE id=' + req.params.id, (err,res) => {
+	databaseConnection.query('DELETE FROM guestbook WHERE id=' + req.params.id, (err,res) => {
 		if(err){
 			console.log(err)
 		}
@@ -82,7 +60,7 @@ router.delete('/api/delete-message/:id', (req,res) => {
 });
 
 router.put('/api/update-message/:id', (req,res) => {
-	pgClient.query('UPDATE guestbook SET message=$1 WHERE id=' + req.params.id, [req.body.message], (err,results) => {
+	databaseConnection.query('UPDATE guestbook SET message=\''+req.body.message+'\' WHERE id=' + req.params.id, (err,results) => {
 		if(err){
 			res.json(err)
 		}

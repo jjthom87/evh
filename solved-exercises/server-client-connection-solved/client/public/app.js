@@ -34,23 +34,23 @@ $(document).ready(function(){
 		}).then(function(messages){
 			var allDiv = $('<div id="all-div">');
 			var guestDiv, nameP, messageP, xButton;
-			messages.rows.sort(function(a, b) { 
+			messages.sort(function(a, b) {
 				return a.id - b.id;
 			});
-			for(var i = 0 ; i < messages.rows.length; i++){
+			for(var i = 0 ; i < messages.length; i++){
 				guestDiv = $('<div class="well guest-div">');
 				guestDiv.css({display: 'inline-block', margin: '10px', overflow: 'hidden'});
 
-				xButton = $('<button class="btn btn-danger x-button" data-id=' + messages.rows[i].id + '>');
+				xButton = $('<button class="btn btn-danger x-button" data-id=' + messages[i].id + '>');
 				xButton.css({padding: "0px 4px 0px 4px", float: 'right'})
 				xButton.text("x");
 
 				nameP = $('<p>');
-				messageP = $('<p class="message" data-id=' + messages.rows[i].id + '>');
+				messageP = $('<p class="message" data-id=' + messages[i].id + '>');
 
-				nameP.text("Name: " + messages.rows[i].name);
+				nameP.text("Name: " + messages[i].name);
 				nameP.css({fontWeight: 'bold'})
-				messageP.text("Message: " + messages.rows[i].message);
+				messageP.text("Message: " + messages[i].message);
 				guestDiv.append(xButton).append(nameP).append(messageP);
 				allDiv.append(guestDiv);
 			}
@@ -78,10 +78,10 @@ $(document).ready(function(){
 			method: 'GET',
 			url: '/api/messages'
 		}).then(function(messages){
-			for(var i = 0; i < messages.rows.length; i++){
-				if(messages.rows[i].id == messageId){
+			for(var i = 0; i < messages.length; i++){
+				if(messages[i].id == messageId){
 					var textInput = $("<textarea id='message-update-input'>");
-					textInput.val(messages.rows[i].message);
+					textInput.val(messages[i].message);
 					inputDiv.append(textInput);
 				}
 			}
