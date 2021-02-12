@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Post</title>
+	<link rel="stylesheet" type="text/css" href="./public/styles.css">
+</head>
+<body>
+	<h1>Welcome to My Dog App</h1>
+	<div class="list-of-dogs">
+		<h3>Dog Breeds</h3>
+		<ul class="dogs-list"></ul>
+	</div>
+	<div class="insert-dog-breed">
+		<h3>Insert a Dog Breed</h3>
+		<form id="insert-dog-breed-form">
+			<label for="breed">Breed</label><br>
+			<input type="text" class="post-breed-inputs" id="breed-input"/><br>
+			<label for="origin">Origin</label><br>
+			<input type="text" class="post-breed-inputs" id="origin-input"/><br>
+			<label for="breed">Size</label><br>
+			<input type="text" class="post-breed-inputs" id="size-input"/><br>
+			<label for="origin">Average Life Span</label><br>
+			<input type="text" class="post-breed-inputs" id="average-life-span-input"/><br>
+			<input type="submit" value="Submit"/>
+		</form>
+		<div>
+			<h4 id="successful-post"></h4>
+			<p id="error-message"></p>
+		</div>
+		<div class="update-or-delete">
+			<h3>Update or Delete?</h3>
+			<select class="update-or-delete-select">
+				<option selected hidden disabled>Choose One</option>
+				<option value="update">Update</option>
+				<option value="delete">Delete</option>
+			</select>
+			<select class="dog-breed-select"></select>
+			<div class="dynamic-inputs"></div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="./public/app.js"></script>
+</body>
+</html>

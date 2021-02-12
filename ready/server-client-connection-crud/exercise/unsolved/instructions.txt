@@ -1,0 +1,27 @@
+# Create a Full Stack Web Application that Resembles a Guestbook
+- Please view the video in this directory as a guide for the solution
+
+# Instructions
+- Install From NPM:
+  - Express
+  - MySQL
+  - Body Parser
+- You will be utilizing the database with the schema that is included as part of this project (in the schema.sql)
+- You will be using all of the CRUD Operations:
+  * Read/Get:
+    - When the page loads, get all of the guestbook messages
+    - When a new post is made, make sure to show the new post on the ui as well as the old posts
+    - When an update is made to a message, do a release  to make sure to update the html with the new values
+    - When a message is delete, do a read to make sure to update the page without the value that you deleted
+  * Create/Post:
+    - Inserting a new message (The Form) into the database
+    - Once a new message is inserted, update the page with that new message
+  * Update/Put:
+    - When you hover over a message and click on that message,
+      a modal will pop up with a form that will let you update that message.
+    - Once you submit the form, the page and database will be updated with the new message value.
+    - Bootstrap Modal Reference: https://github.com/ccny-wd-2020/twitter-bootstrap-js/blob/main/part_one/exercise/solved/index.html
+  * Delete/Delete:
+    - When you click on the RED X that belongs to that message, the message
+      will be deleted from the database and then the page should be updated
+      without that deleted message there
