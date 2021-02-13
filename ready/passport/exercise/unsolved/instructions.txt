@@ -1,0 +1,2 @@
+Combining the html from the dog breed lesson with passport, create an app
+that will only let you see the dog breed crud html if you're signed in.
