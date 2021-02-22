@@ -21,6 +21,16 @@ router.get('/', function(req,res){
 	res.sendFile(path.join(__dirname, '../../client/public/index.html'));
 });
 
+//connecting your contact page route to an html file on the client side
+//this will what you see at http://localhost:3000/contact
+//the connnection to an html page will always be a "get"
+router.get('/contact', function(req,res){
+	//research path & path.join on stack overflow
+	//console.log(req)
+	//console.log(dirname)
+	res.sendFile(path.join(__dirname, '../../client/public/contact.html'));
+});
+
 router.get('/dogs', function(req, res){
   const allDogBreedsSelectQuery = "SELECT * FROM dog_breeds";
   databaseConnection.query(allDogBreedsSelectQuery, function(err, data){
